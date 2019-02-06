@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: 2d49228973d5b6543ab15ca20d60f1c1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Atlas_CoffeeMachine
+    21300002: Atlas_WaterDispenser
+    21300004: Atlas_Props_01_2
+    21300006: Atlas_FishBowl
+    21300008: Atlas_Tree01
+    21300010: Atlas_Tree02
+    21300012: Atlas_Tree03
+    21300014: Atlas_STree01
+    21300016: Atlas_Stree02
+    21300018: Atlas_RubbishBin
+    21300020: Atlas_BoxesPack
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atlas_CoffeeMachine
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 657
+        width: 152
+        height: 366
+      alignment: 9
+      pivot: {x: 0.03701441, y: 0.10831572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3dc04a2000e3c4ebbe4e47c47b82f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_WaterDispenser
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 649
+        width: 156
+        height: 317
+      alignment: 9
+      pivot: {x: 0.061792716, y: 0.12380529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db475b9027431648b1a7de32532899f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_FishBowl
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 655
+        width: 156
+        height: 266
+      alignment: 9
+      pivot: {x: 0.05185586, y: 0.15377073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9019dc0dbe296c84d8658ce0081cd4aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Tree01
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 676
+        width: 129
+        height: 314
+      alignment: 9
+      pivot: {x: 0.4857386, y: 0.01164372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a7019625e947e49a3deb03f467c3b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Tree02
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 672
+        width: 107
+        height: 322
+      alignment: 9
+      pivot: {x: 0.50589305, y: 0.023293253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843ab5ba3603e8847a53dd489f041093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Tree03
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 672
+        width: 110
+        height: 247
+      alignment: 9
+      pivot: {x: 0.50073683, y: 0.021285208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a01c259cce186d4fafe71c2c61f27e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_STree01
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 493
+        width: 68
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5272778, y: 0.035041243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f6933b749955c4cb641ab669afdaa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Stree02
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 493
+        width: 66
+        height: 96
+      alignment: 9
+      pivot: {x: 0.4986936, y: 0.04857453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3523501ec3e17d4dabe90b5020693b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_RubbishBin
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 504
+        width: 127
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefe7a37799f52d478fbb96be77866a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_BoxesPack
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 302
+        width: 155
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5092401, y: 0.039997417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca6c014ef33e94796800b44afc29d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3976d17cbbb86094b827342ae0e50b7f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

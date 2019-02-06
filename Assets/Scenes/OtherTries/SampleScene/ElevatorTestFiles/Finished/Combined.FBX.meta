@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: fd4d469fc412b40498383db9ed9e48d7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Me_Button_Alarm_000
+    100004: Me_Button_Regular_000
+    100006: Me_Button_Regular_Number_000
+    100008: Me_Elevator
+    100010: Me_Panel
+    100012: Me_Panel_Screw_000
+    100014: Me_Sliding-door
+    100016: Me_Vent
+    100018: Me_Vent-border
+    400000: //RootNode
+    400002: Me_Button_Alarm_000
+    400004: Me_Button_Regular_000
+    400006: Me_Button_Regular_Number_000
+    400008: Me_Elevator
+    400010: Me_Panel
+    400012: Me_Panel_Screw_000
+    400014: Me_Sliding-door
+    400016: Me_Vent
+    400018: Me_Vent-border
+    2100000: 'Material #4'
+    2300000: Me_Button_Alarm_000
+    2300002: Me_Button_Regular_000
+    2300004: Me_Button_Regular_Number_000
+    2300006: Me_Elevator
+    2300008: Me_Panel
+    2300010: Me_Panel_Screw_000
+    2300012: Me_Sliding-door
+    2300014: Me_Vent
+    2300016: Me_Vent-border
+    3300000: Me_Button_Alarm_000
+    3300002: Me_Button_Regular_000
+    3300004: Me_Button_Regular_Number_000
+    3300006: Me_Elevator
+    3300008: Me_Panel
+    3300010: Me_Panel_Screw_000
+    3300012: Me_Sliding-door
+    3300014: Me_Vent
+    3300016: Me_Vent-border
+    4300000: Me_Elevator
+    4300002: Me_Vent-border
+    4300004: Me_Vent
+    4300006: Me_Panel
+    4300008: Me_Button_Regular_000
+    4300010: Me_Button_Alarm_000
+    4300012: Me_Panel_Screw_000
+    4300014: Me_Button_Regular_Number_000
+    4300016: Me_Sliding-door
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

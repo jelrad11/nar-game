@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 986af7af0693ebe4582502671c9d03dc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _woosh: {fileID: 8300000, guid: e9fe6307bf73e06429dcecfaf6a00ca5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
