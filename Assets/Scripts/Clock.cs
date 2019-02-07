@@ -50,14 +50,12 @@ public class Clock : MonoBehaviour {
 		
 		if(Input.GetKey(KeyCode.F) || timeEnabled == true )
 		{
-			quarterHand.Rotate(0,0,-90 * Time.deltaTime * 2 );
-			hourHand.Rotate(0,0,-15 * Time.deltaTime);
-
+			quarterHand.Rotate(0,0,-360 * Time.deltaTime / 2 );
+			hourHand.Rotate(0,0,-30 * Time.deltaTime / 2);
 
 			//Debug.Log(Mathf.RoundToInt(Time.time));
 			timeEnabled = true;
-
-			if(Time.time > _Time)
+			if(Time.time >= _Time)
 			{
 
 				_Time = Time.time + timeSpeed;

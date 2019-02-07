@@ -13,6 +13,7 @@ public class Job : MonoBehaviour {
 	
 	[SerializeField] public ParticleSystem Ps;
 
+
 	
 	
 
@@ -46,19 +47,45 @@ public class Job : MonoBehaviour {
 		_Ps.Play();
 			if(JobID == _TM.givenTask)
 			{
-
+				Debug.Log("Player is working on his task");
+		
+				_TM.taskWorking = true;
 			}
 			
 
-		_TM.taskWorking = true;
+
 	}
 
+	void OnTriggerStay (Collider other)
+	{
+		if(_TM.taskWorking == true)
+		{
+			StartCoroutine("corWorking");
+
+
+
+		}
+	}
+
+	IEnumerator corWorking ()
+	{
+
+		yield return new WaitForSeconds (5f);
+
+		_TM.taskWorking = false;
+		_TM.taskAccomplished = true;
+		Debug.Log("Job at " + _T.TaskList[JobID] + " is finished!" );
+		_TM.tasksFinished++;
+		StopCoroutine("corWorking");
+	}
 		void OnTriggerExit (Collider other)
 	{
+		StopCoroutine("corWorking");
 		Debug.Log("- " + other.name + " Odešel ze zóny " + _T.TaskList[JobID]);
 		_TM.taskWorking = false;
 		_TM.taskWorkingID = 0;
-
+		
 	}
 }
+
 

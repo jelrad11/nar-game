@@ -16,7 +16,7 @@ public class TaskManager : MonoBehaviour {
 	public int givenTask;
 	public int tasksFinished;
 
-	 public string[] jobs = {  
+	 [System.NonSerialized] public string[] jobs = {  
 		 				"Out",
 		 				"Go to your office", 
 	 					"Go to your colleagues office",
@@ -40,7 +40,7 @@ public class TaskManager : MonoBehaviour {
 		if(taskNew)
 		{
 
-			var randomSelector = Random.Range(0, jobs.Length);
+			var randomSelector = Random.Range(1, jobs.Length);
 			
 			Debug.Log(jobs[randomSelector]);
 			givenTask = randomSelector; //Gives player a task

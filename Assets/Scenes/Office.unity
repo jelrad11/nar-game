@@ -6709,7 +6709,7 @@ GameObject:
   m_Layer: 5
   m_Name: Task Manager
   m_TagString: Task Manager
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6751,6 +6751,7 @@ MonoBehaviour:
   taskWorking: 0
   taskWorkingID: 0
   givenTask: 0
+  tasksFinished: 0
   jobs:
   - Go to the office
   - Go to the Lounge
