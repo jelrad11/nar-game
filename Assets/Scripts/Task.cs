@@ -9,7 +9,13 @@ public class Task : MonoBehaviour {
 	
 	[SerializeField]
 	public ParticleSystem Ps;
-	[System.NonSerialized] public string[] TaskList = {"Players Cube", "Colleagues Cube", "Boss", "Canteen", "Lounge"};
+	[System.NonSerialized] public string[] TaskList = {
+					"Out",
+					"Players Cube", 
+					"Colleagues Cube",
+					"Boss",
+					"Meeting", 
+					"Canteen"};
 
 	void Start()
 	{

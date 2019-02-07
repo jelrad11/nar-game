@@ -12,9 +12,14 @@ public class TaskManager : MonoBehaviour {
 	public bool taskNew;
 	public bool taskAccomplished;
 	public bool taskWorking;
+	public int taskWorkingID;
+	public int givenTask;
+	public int tasksFinished;
 
-	 string[] jobs = {  "Go to the office", 
-	 					"Go to the Lounge",
+	 public string[] jobs = {  
+		 				"Out",
+		 				"Go to your office", 
+	 					"Go to your colleagues office",
 						"Go to the Boss",
 						"Go to the meeting room",
 						"Go for a lunch with your colleagues"};
@@ -31,12 +36,16 @@ public class TaskManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
 		if(taskNew)
 		{
 
 			var randomSelector = Random.Range(0, jobs.Length);
-			Debug.Log(randomSelector);
-			_Task.text = jobs[randomSelector];
+			
+			Debug.Log(jobs[randomSelector]);
+			givenTask = randomSelector; //Gives player a task
+
+			_Task.text = jobs[randomSelector]; //changes the text on a sticky note
 			_Task.fontStyle = FontStyles.Normal;
 			_Task.faceColor = new Color32(171, 17, 17, 255);
 			taskNew = false;
@@ -48,5 +57,6 @@ public class TaskManager : MonoBehaviour {
 			
 			taskAccomplished = false;
 		}
+
 	}
 }

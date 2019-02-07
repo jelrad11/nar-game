@@ -40,9 +40,15 @@ public class Job : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other)
 	{
-		Debug.Log("+ " + other.name + " Vstoupil do zóny " + _T.TaskList[JobID]);	
+		Debug.Log("+ " + other.name + " Vstoupil do zóny " + _T.TaskList[JobID]);
+		_TM.taskWorkingID  = JobID;	
 		ParticleSystem _Ps = Ps.GetComponent<ParticleSystem>(); 
 		_Ps.Play();
+			if(JobID == _TM.givenTask)
+			{
+
+			}
+			
 
 		_TM.taskWorking = true;
 	}
@@ -51,6 +57,7 @@ public class Job : MonoBehaviour {
 	{
 		Debug.Log("- " + other.name + " Odešel ze zóny " + _T.TaskList[JobID]);
 		_TM.taskWorking = false;
+		_TM.taskWorkingID = 0;
 
 	}
 }
