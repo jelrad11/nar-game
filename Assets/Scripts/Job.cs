@@ -13,6 +13,8 @@ public class Job : MonoBehaviour {
 	
 	[SerializeField] public ParticleSystem Ps;
 
+	[SerializeField] FogOfWar _fogOfWarScript;
+
 
 	
 	
@@ -42,9 +44,17 @@ public class Job : MonoBehaviour {
 	void OnTriggerEnter (Collider other)
 	{
 		Debug.Log("+ " + other.name + " Vstoupil do zóny " + _T.TaskList[JobID]);
+		
+		if(other.gameObject.tag == "Player" && _fogOfWarScript.fogOfWar == true)
+		{
+			_fogOfWarScript.fade();  
+		}
+		
 		_TM.taskWorkingID  = JobID;	
 		ParticleSystem _Ps = Ps.GetComponent<ParticleSystem>(); 
 		_Ps.Play();
+
+
 			if(JobID == _TM.givenTask)
 			{
 				Debug.Log("Player is working on his task");
