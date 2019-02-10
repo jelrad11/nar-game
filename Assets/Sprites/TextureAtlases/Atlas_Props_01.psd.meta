@@ -13,6 +13,8 @@ TextureImporter:
     21300016: Atlas_Stree02
     21300018: Atlas_RubbishBin
     21300020: Atlas_BoxesPack
+    21300022: Atlas_Props_01_0
+    21300024: Atlas_Metr-Guide
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -109,12 +111,12 @@ TextureImporter:
       name: Atlas_CoffeeMachine
       rect:
         serializedVersion: 2
-        x: 354
-        y: 657
-        width: 152
-        height: 366
+        x: 309
+        y: 207
+        width: 161
+        height: 390
       alignment: 9
-      pivot: {x: 0.03701441, y: 0.10831572}
+      pivot: {x: 0.036598917, y: 0.104374655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -129,12 +131,12 @@ TextureImporter:
       name: Atlas_WaterDispenser
       rect:
         serializedVersion: 2
-        x: 193
-        y: 649
-        width: 156
-        height: 317
+        x: 16
+        y: 632
+        width: 173
+        height: 380
       alignment: 9
-      pivot: {x: 0.061792716, y: 0.12380529}
+      pivot: {x: 0.025951892, y: 0.105347}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,12 +151,12 @@ TextureImporter:
       name: Atlas_FishBowl
       rect:
         serializedVersion: 2
-        x: 9
-        y: 655
-        width: 156
-        height: 266
+        x: 201
+        y: 642
+        width: 161
+        height: 277
       alignment: 9
-      pivot: {x: 0.05185586, y: 0.15377073}
+      pivot: {x: 0.036025148, y: 0.14668092}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,12 +171,12 @@ TextureImporter:
       name: Atlas_Tree01
       rect:
         serializedVersion: 2
-        x: 532
-        y: 676
-        width: 129
-        height: 314
+        x: 18
+        y: 217
+        width: 149
+        height: 399
       alignment: 9
-      pivot: {x: 0.4857386, y: 0.01164372}
+      pivot: {x: 0.52965295, y: 0.011643727}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +191,12 @@ TextureImporter:
       name: Atlas_Tree02
       rect:
         serializedVersion: 2
-        x: 688
-        y: 672
-        width: 107
-        height: 322
+        x: 175
+        y: 219
+        width: 106
+        height: 335
       alignment: 9
-      pivot: {x: 0.50589305, y: 0.023293253}
+      pivot: {x: 0.5203931, y: 0.009528863}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +231,12 @@ TextureImporter:
       name: Atlas_STree01
       rect:
         serializedVersion: 2
-        x: 559
-        y: 493
-        width: 68
-        height: 162
+        x: 926
+        y: 215
+        width: 147
+        height: 395
       alignment: 9
-      pivot: {x: 0.5272778, y: 0.035041243}
+      pivot: {x: 0.5115942, y: 0.019476743}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,12 +251,12 @@ TextureImporter:
       name: Atlas_Stree02
       rect:
         serializedVersion: 2
-        x: 641
-        y: 493
-        width: 66
-        height: 96
+        x: 934
+        y: 322
+        width: 106
+        height: 338
       alignment: 9
-      pivot: {x: 0.4986936, y: 0.04857453}
+      pivot: {x: 0.5059436, y: 0.01674309}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -269,8 +271,8 @@ TextureImporter:
       name: Atlas_RubbishBin
       rect:
         serializedVersion: 2
-        x: 16
-        y: 504
+        x: 669
+        y: 131
         width: 127
         height: 137
       alignment: 0
@@ -289,8 +291,8 @@ TextureImporter:
       name: Atlas_BoxesPack
       rect:
         serializedVersion: 2
-        x: 10
-        y: 302
+        x: 885
+        y: 251
         width: 155
         height: 192
       alignment: 9
@@ -301,6 +303,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a8ca6c014ef33e94796800b44afc29d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Props_01_0
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 351
+        width: 211
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f58efbf95a7449981dacfd68ef03f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Metr-Guide
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 5
+        width: 81
+        height: 395
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d296b817820c0264686ca90153b31f0f
       vertices: []
       indices: 
       edges: []
