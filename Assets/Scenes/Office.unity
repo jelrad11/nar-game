@@ -848,6 +848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4ee22d2136c72a49a3890ebb15f5962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _TM: {fileID: 665908000}
+  _Cl: {fileID: 576680209}
 --- !u!4 &46322343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8802940655697608754, guid: 329d300620caa3c4eb293bd6f5d13f19,
@@ -3006,8 +3008,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316379966}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 38.25, y: -0.248, z: -11.95}
-  m_LocalScale: {x: 4.824613, y: 4.518931, z: 0.36368}
+  m_LocalPosition: {x: 37.99, y: -0.248, z: -11.95}
+  m_LocalScale: {x: 5.2419424, y: 4.73358, z: 0.36368}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -6127,8 +6129,6 @@ MonoBehaviour:
   Hour: 0
   dayAmount: 0
   crossReady: 0
-  VectorA: {x: 0, y: 0, z: 0}
-  VectorB: {x: 0, y: 90, z: 0}
   CurrentTime: 
 --- !u!1001 &583463746
 PrefabInstance:
@@ -18665,7 +18665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4201218731710594, guid: 2d0ad8d0a1ef72e4baa898ae77109d02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.28
+      value: 0.7998649
       objectReference: {fileID: 0}
     - target: {fileID: 4201218731710594, guid: 2d0ad8d0a1ef72e4baa898ae77109d02, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21104,7 +21104,7 @@ PrefabInstance:
     - target: {fileID: 107885733906416359, guid: 7a5486c43127e5e4c95329833b28b799,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.860003
+      value: 26.51
       objectReference: {fileID: 0}
     - target: {fileID: 107885733906416359, guid: 7a5486c43127e5e4c95329833b28b799,
         type: 3}
@@ -21114,7 +21114,7 @@ PrefabInstance:
     - target: {fileID: 107885733906416359, guid: 7a5486c43127e5e4c95329833b28b799,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.001
+      value: 1.79
       objectReference: {fileID: 0}
     - target: {fileID: 107885733906416359, guid: 7a5486c43127e5e4c95329833b28b799,
         type: 3}

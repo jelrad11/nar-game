@@ -41,14 +41,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Floor
+    uniqueID: 3659077747
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Props
     uniqueID: 2997088495
-    locked: 0
-  - name: Floor
-    uniqueID: 3659077747
     locked: 0
   - name: Player
     uniqueID: 2234149667

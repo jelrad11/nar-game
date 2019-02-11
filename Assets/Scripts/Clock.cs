@@ -29,9 +29,6 @@ public class Clock : MonoBehaviour {
 
 	private int _TimeValQuarter = 15;
 	private int _CurrentTimeQuarter = 0;
-
-	public Vector3 VectorA = new Vector3(0,0,0);
-	public Vector3 VectorB = new Vector3(0,90,0);
 	
 	[SerializeField] string CurrentTime;
 
@@ -72,11 +69,11 @@ public class Clock : MonoBehaviour {
 				_Time = Time.time + timeSpeed;
 				
 				Quarters++;
-				Debug.Log("Quarter " + Quarters);
+				//Debug.Log("Quarter " + Quarters);
 
 				if(Quarters > 0)
 				{
-					Debug.Log("Hodina");	
+					//Debug.Log("Hodina");	
 				}	
 			}
 
@@ -85,7 +82,7 @@ public class Clock : MonoBehaviour {
 				Hour++;
 				Quarters = 0;
 
-				Debug.Log("Hour " + Hour); 
+				//Debug.Log("Hour " + Hour); 
 			}	
 			
 			if(Hour >= 12)
