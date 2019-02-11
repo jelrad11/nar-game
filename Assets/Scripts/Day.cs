@@ -11,9 +11,9 @@ public class Day : MonoBehaviour {
 
 	
 	[SerializeField] GameObject calendarCross;	//GameObject Calendar Cross for Instantiating
-	private Vector3 _CrossPosDefault = new Vector3(-30.0153f,11.358f,3.4746f); //Offset for crosses in line
-	private Vector3 _CrossOffsetLine = new Vector3(-0.262f,0,0); //Offset for crosses in line
-	private Vector3 _CrossOffsetColumn = new Vector3(0,-0.331f,0); //Offset for crosses in column
+	private Vector3 _CrossPosDefault = new Vector3(-29.875f,12.14f,3.4746f); //Offset for crosses in line
+	private Vector3 _CrossOffsetLine = new Vector3(-0.193f,0,0); //Offset for crosses in line
+	private Vector3 _CrossOffsetColumn = new Vector3(0,-0.231f,0); //Offset for crosses in column
 
 	[SerializeField]private int _CrossInst; //Integer for checking if day++ -23.795
 

@@ -29,7 +29,7 @@ public class TaskManager : MonoBehaviour {
 		//Text
 		_Task = GetComponent<TextMeshProUGUI>() ?? gameObject.AddComponent<TextMeshProUGUI>();
 
-		_Task.fontSize = 28;	
+		_Task.fontSize = 18;	
 		_Task.font = _font;
 	
 	}
