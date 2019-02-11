@@ -12,6 +12,9 @@ public class Clock : MonoBehaviour {
 	[SerializeField]
 	private TaskManager _TM;
 
+	[SerializeField ]
+	private GameManager _GM;
+
 	
 
 	private float _Time;
@@ -42,6 +45,14 @@ public class Clock : MonoBehaviour {
 	void Start () 
 	{
 		_TM = GameObject.FindGameObjectWithTag("Task Manager").GetComponent<TaskManager>();
+		_GM = GameObject.FindGameObjectWithTag("Game Manager").GetComponent<GameManager>();
+		
+		if(_TM != null)
+			{   Debug.Log("Task Manager Found"); }
+
+		if(_GM != null)
+			{   Debug.Log("Game Manager Found");   }
+
 	}
 	
 	// Update is called once per frame
