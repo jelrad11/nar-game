@@ -45,9 +45,9 @@ public class Job : MonoBehaviour {
 	{
 		Debug.Log("+ " + other.name + " Vstoupil do zóny " + _T.TaskList[JobID]);
 		
-		if(other.gameObject.tag == "Player" && _fogOfWarScript.fogOfWar == true)
+		if(other.gameObject.tag == "Player" && _fogOfWarScript.fogOfWarEnabled == true)
 		{
-			_fogOfWarScript.fade();  
+			_fogOfWarScript.fogOfWar = true;
 		}
 		
 		_TM.taskWorkingID  = JobID;	

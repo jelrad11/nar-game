@@ -23,12 +23,12 @@ public class Elevator_Movement : MonoBehaviour {
 
         float _horizontal = Input.GetAxis("Horizontal")* speed;
         float _vertical = Input.GetAxis("Vertical") * speed;
-        float _upDown = Input.GetAxis("UpDown") * speed;
+        //float _upDown = Input.GetAxis("UpDown") * speed;
 
 
         transform.Translate(new Vector3 (_horizontal,0,0) * Time.deltaTime, Space.World);
         transform.Translate(new Vector3 (0,0,_vertical) * Time.deltaTime, Space.World);
-        transform.Translate(0,_upDown,0);
+        //transform.Translate(0,_upDown,0);
         
         }
 

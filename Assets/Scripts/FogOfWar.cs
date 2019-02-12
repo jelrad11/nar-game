@@ -6,26 +6,30 @@ public class FogOfWar : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public bool fogOfWar = false;
-    private bool fogOfWarEnabled = true;
+    [System.NonSerialized] public bool fogOfWar = false;
+    public bool fogOfWarEnabled = true;
+    private float _t = 0f;
     
     [SerializeField] Color FadeStartColor;
     [SerializeField] Color FadeEndColor;
     private float _FadeTime = 1f;
 
     Renderer _fogOfWarMaterial;
-
+    void Update()
+    {
+        if(fogOfWar)
+        {
+            fade();
+        }
+    }
 
     public void fade()
     {
-        GetComponent<Renderer>().material.color = Color.Lerp(FadeStartColor, FadeEndColor,1);
-        Debug.Log("Fadeeeeeeeeeeeeeeeeeeeeeeeeee");
-            
-    }
-
-    public void fadeEnd()
-    {
-        
+        GetComponent<Renderer>().material.color = Color.Lerp(FadeStartColor, FadeEndColor, _t);
+            if (_t < 1)
+            {
+                _t += Time.deltaTime / _FadeTime;
+            }
     }
 }
 
