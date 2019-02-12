@@ -8,18 +8,23 @@ public class FogOfWar : MonoBehaviour
 
     public bool fogOfWar = false;
     private bool fogOfWarEnabled = true;
-    [SerializeField] Color Faded;
-
-    Renderer _fogOfWarMaterial;
+    
+    [SerializeField] Color FadeStartColor;
+    [SerializeField] Color FadeEndColor;
     private float _FadeTime = 1f;
 
-void start()
-{
-}
+    Renderer _fogOfWarMaterial;
+
+
     public void fade()
     {
-        
+        GetComponent<Renderer>().material.color = Color.Lerp(FadeStartColor, FadeEndColor,1);
         Debug.Log("Fadeeeeeeeeeeeeeeeeeeeeeeeeee");
+            
+    }
+
+    public void fadeEnd()
+    {
         
     }
 }
