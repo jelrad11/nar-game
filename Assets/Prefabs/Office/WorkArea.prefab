@@ -4795,7 +4795,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3317884444503996527}
-  - {fileID: 5443032963579364182}
+  - {fileID: 6049648592147034687}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4836,9 +4836,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5443032963579364182}
-  - component: {fileID: 395291885212405620}
+  - component: {fileID: 6049648592147034687}
   - component: {fileID: 4340905118424290217}
+  - component: {fileID: 9122254649429290975}
+  - component: {fileID: 220160694}
   m_Layer: 0
   m_Name: FogOfWar
   m_TagString: Untagged
@@ -4846,21 +4847,51 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5443032963579364182
-Transform:
+--- !u!224 &6049648592147034687
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4340905118424290216}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.686, y: -1.106, z: 2.141}
-  m_LocalScale: {x: 0.51185, y: 0.51185, z: 0.51185}
+  m_LocalPosition: {x: 0, y: 0, z: -0.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3317884444817608271}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!212 &395291885212405620
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.521, y: 0.707}
+  m_SizeDelta: {x: 3.1, y: 3.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4340905118424290217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340905118424290216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89ac10731693b8419b9de85c87fdaf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogOfWarEnabled: 1
+  fogOfWarAnimating: 0
+  _t: 0
+  FadeStartColor: {r: 1, g: 1, b: 1, a: 1}
+  FadeEndColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!222 &9122254649429290975
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340905118424290216}
+  m_CullTransparentMesh: 0
+--- !u!212 &220160694
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4877,7 +4908,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1cdfa4d02b5e3154197ce2e4a09a5515, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4894,32 +4925,17 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1297878801
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d9cd41de8e0b3d44395d801c1cc59f29, type: 3}
+  m_Sprite: {fileID: 21300030, guid: 2d49228973d5b6543ab15ca20d60f1c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.1, y: 3.1}
+  m_DrawMode: 1
+  m_Size: {x: 14.79, y: 5.02}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4340905118424290217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4340905118424290216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c89ac10731693b8419b9de85c87fdaf8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fogOfWar: 1
-  FadeStartColor: {r: 1, g: 1, b: 1, a: 1}
-  FadeEndColor: {r: 1, g: 1, b: 1, a: 0}

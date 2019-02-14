@@ -4,7 +4,7 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Atlas_CoffeeMachine
     21300002: Atlas_WaterDispenser
-    21300004: Atlas_Props_01_2
+    21300004: Atlas_Tree02-dead
     21300006: Atlas_FishBowl
     21300008: Atlas_Tree01
     21300010: Atlas_Tree02
@@ -17,6 +17,13 @@ TextureImporter:
     21300024: Atlas_Metr-Guide
     21300026: Atlas_Locker
     21300028: Atlas_FloorTile
+    21300030: Atlas_Fog
+    21300032: Atlas_Sign-Boss
+    21300034: Atlas_Poster-01
+    21300036: Atlas_CoffeeSpill
+    21300038: Atlas_Socket
+    21300040: Atlas_Props_01_1
+    21300042: Atlas_Vent
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -57,7 +64,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -77,7 +84,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
@@ -88,7 +95,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
@@ -99,8 +106,8 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,9 +120,9 @@ TextureImporter:
       name: Atlas_CoffeeMachine
       rect:
         serializedVersion: 2
-        x: 309
-        y: 207
-        width: 161
+        x: 595
+        y: 400
+        width: 162
         height: 390
       alignment: 9
       pivot: {x: 0.036598917, y: 0.104374655}
@@ -133,8 +140,8 @@ TextureImporter:
       name: Atlas_WaterDispenser
       rect:
         serializedVersion: 2
-        x: 16
-        y: 632
+        x: 18
+        y: 827
         width: 173
         height: 380
       alignment: 9
@@ -153,8 +160,8 @@ TextureImporter:
       name: Atlas_FishBowl
       rect:
         serializedVersion: 2
-        x: 201
-        y: 642
+        x: 203
+        y: 836
         width: 161
         height: 277
       alignment: 9
@@ -173,8 +180,8 @@ TextureImporter:
       name: Atlas_Tree01
       rect:
         serializedVersion: 2
-        x: 18
-        y: 217
+        x: 19
+        y: 412
         width: 149
         height: 399
       alignment: 9
@@ -193,8 +200,8 @@ TextureImporter:
       name: Atlas_Tree02
       rect:
         serializedVersion: 2
-        x: 175
-        y: 219
+        x: 177
+        y: 416
         width: 106
         height: 335
       alignment: 9
@@ -213,8 +220,8 @@ TextureImporter:
       name: Atlas_VendingMachine
       rect:
         serializedVersion: 2
-        x: 486
-        y: 203
+        x: 773
+        y: 399
         width: 165
         height: 396
       alignment: 9
@@ -353,8 +360,8 @@ TextureImporter:
       name: Atlas_Locker
       rect:
         serializedVersion: 2
-        x: 661
-        y: 202
+        x: 948
+        y: 399
         width: 165
         height: 396
       alignment: 9
@@ -365,6 +372,166 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ce3c3415471e92b479aca7373d9a59ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Fog
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1024
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 29, y: 31, z: 20, w: 31}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055b44897cf4a4c49a7653f172d53ce3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Sign-Boss
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 289
+        width: 242
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696200089b49d4b4a839e3747d949749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Poster-01
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 165
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b73cc03c61ff743aa46e7997853706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_CoffeeSpill
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 900
+        width: 151
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ff5368a6a1a7949b3ca2aa29e076ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Socket
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1072
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ffd7b095108e4bbebc7a7c6b88fc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Props_01_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 414
+        width: 133
+        height: 351
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.009130668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7062ce27f8f59674b95e408ffaed3feb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Tree02-dead
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 412
+        width: 110
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b42831c7d08804ab89e1785a16df17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Vent
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 278
+        width: 232
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810e082c776dc2641a555d997ccffb05
       vertices: []
       indices: 
       edges: []

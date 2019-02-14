@@ -27,6 +27,8 @@ TextureImporter:
     21300044: Atlas_Wall02_b
     21300046: Atlas_Walls_6
     21300048: Atlas_Walls_7
+    21300050: Atlas_Wall05_a
+    21300052: Atlas_Wall05_b
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -183,10 +185,10 @@ TextureImporter:
       name: Atlas_Wall03_b
       rect:
         serializedVersion: 2
-        x: 1418
+        x: 1419
         y: 520
-        width: 620
-        height: 498
+        width: 618
+        height: 496
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,10 +245,10 @@ TextureImporter:
       name: Atlas_Wall04_a
       rect:
         serializedVersion: 2
-        x: 1035
+        x: 1034
         y: 11
-        width: 373
-        height: 498
+        width: 375
+        height: 496
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,7 +266,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1418
-        y: 11
+        y: 12
         width: 618
         height: 496
       alignment: 6
@@ -275,6 +277,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 28acb2c5fa4e5a544b2a81ac2a5abbdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Wall05_a
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 520
+        width: 373
+        height: 495
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439e4f7dafcd11542bb41b36a0090a58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Wall05_b
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 521
+        width: 618
+        height: 494
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a196c6336e2340f49be0c13bf19c2a89
       vertices: []
       indices: 
       edges: []

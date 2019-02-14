@@ -47,7 +47,9 @@ public class Job : MonoBehaviour {
 		
 		if(other.gameObject.tag == "Player" && _fogOfWarScript.fogOfWarEnabled == true)
 		{
-			_fogOfWarScript.fogOfWar = true;
+			_fogOfWarScript.fogOfWarAnimating = true;
+			_fogOfWarScript.fogOfWar = 1;
+
 		}
 		
 		_TM.taskWorkingID  = JobID;	
@@ -71,9 +73,6 @@ public class Job : MonoBehaviour {
 		if(_TM.taskWorking == true)
 		{
 			StartCoroutine("corWorking");
-
-
-
 		}
 	}
 
@@ -90,10 +89,17 @@ public class Job : MonoBehaviour {
 	}
 		void OnTriggerExit (Collider other)
 	{
+		_fogOfWarScript.fogOfWar = 2;
+
 		StopCoroutine("corWorking");
 		Debug.Log("- " + other.name + " Odešel ze zóny " + _T.TaskList[JobID]);
 		_TM.taskWorking = false;
 		_TM.taskWorkingID = 0;
+
+		_fogOfWarScript.fogOfWarAnimating = true;
+		_fogOfWarScript.fogOfWar = 2;		
+
+
 		
 	}
 }

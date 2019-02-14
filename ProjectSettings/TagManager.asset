@@ -47,7 +47,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Props
+  - name: Fog
     uniqueID: 2997088495
     locked: 0
   - name: Player
