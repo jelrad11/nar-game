@@ -10,13 +10,16 @@ public class Task : MonoBehaviour {
 	[SerializeField]
 	public ParticleSystem Ps;
 	[System.NonSerialized] public string[] TaskList = {
-					"Out",
-					"Players Cube", 
-					"Colleagues Cube",
-					"Boss",
-					"Meeting", 
-					"Canteen"};
+					"Out",					//0
+					"Players Cube", 		//1
+					"Colleagues Cube",		//2
+					"Boss",					//3
+					"Meeting", 				//4
+					"Common room",			//5
+					"Lockers",				//6
+					"Storage",				//7
 
+					};
 	void Start()
 	{
 		var _Player = GameObject.FindGameObjectWithTag("Player");
