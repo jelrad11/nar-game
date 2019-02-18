@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour {
     private float _speed = 3.5f;
     public int enemiesGone = 0;
 	// Use this for initialization
+
+
 	void Start ()
     {
         _controller = GetComponent<CharacterController>();
