@@ -9,10 +9,10 @@ TextureImporter:
     21300008: Atlas_Tree01
     21300010: Atlas_Tree02
     21300012: Atlas_VendingMachine
-    21300014: Atlas_STree01
+    21300014: Atlas_Locker2-1Part
     21300016: Atlas_Stree02
     21300018: Atlas_RubbishBin
-    21300020: Atlas_BoxesPack
+    21300020: Atlas_Locker2
     21300022: Atlas_Props_01_0
     21300024: Atlas_Metr-Guide
     21300026: Atlas_Locker
@@ -22,8 +22,13 @@ TextureImporter:
     21300034: Atlas_Poster-01
     21300036: Atlas_CoffeeSpill
     21300038: Atlas_Socket
-    21300040: Atlas_Props_01_1
+    21300040: Atlas_Tree01-b
     21300042: Atlas_Vent
+    21300044: Atlas_Boxes
+    21300046: Atlas_Table
+    21300048: Atlas_Copier
+    21300050: Atlas_Highlight
+    21300052: Atlas_Locker2-2Part
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -121,11 +126,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 595
-        y: 400
+        y: 403
         width: 162
-        height: 390
+        height: 387
       alignment: 9
-      pivot: {x: 0.036598917, y: 0.104374655}
+      pivot: {x: 0.018831607, y: 0.100655966}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,11 +146,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 18
-        y: 827
+        y: 830
         width: 173
-        height: 380
+        height: 375
       alignment: 9
-      pivot: {x: 0.025951892, y: 0.105347}
+      pivot: {x: 0.037043765, y: 0.10099542}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -161,9 +166,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 203
-        y: 836
+        y: 837
         width: 161
-        height: 277
+        height: 286
       alignment: 9
       pivot: {x: 0.036025148, y: 0.14668092}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,11 +186,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 412
+        y: 435
         width: 149
-        height: 399
+        height: 364
       alignment: 9
-      pivot: {x: 0.52965295, y: 0.011643727}
+      pivot: {x: 0.50748694, y: 0.013148793}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,9 +206,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 177
-        y: 416
-        width: 106
-        height: 335
+        y: 421
+        width: 110
+        height: 325
       alignment: 9
       pivot: {x: 0.5203931, y: 0.009528863}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,11 +226,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 773
-        y: 399
+        y: 403
         width: 165
-        height: 396
+        height: 392
       alignment: 9
-      pivot: {x: 0.029541386, y: 0.11189891}
+      pivot: {x: 0.03676425, y: 0.097457655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,15 +242,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_STree01
+      name: Atlas_Locker2-1Part
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 253
-        width: 147
-        height: 395
+        x: 1337
+        y: 523
+        width: 114
+        height: 122
       alignment: 9
-      pivot: {x: 0.5115942, y: 0.019476743}
+      pivot: {x: 0.024310196, y: 0.18788747}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,15 +302,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_BoxesPack
+      name: Atlas_Locker2
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 236
-        width: 155
-        height: 192
+        x: 1127
+        y: 403
+        width: 158
+        height: 388
       alignment: 9
-      pivot: {x: 0.5092401, y: 0.039997417}
+      pivot: {x: 0.0113934865, y: 0.093465194}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,11 +366,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 948
-        y: 399
+        y: 402
         width: 165
-        height: 396
+        height: 388
       alignment: 9
-      pivot: {x: 0.036627013, y: 0.11485129}
+      pivot: {x: 0.033438757, y: 0.10264627}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -400,10 +405,10 @@ TextureImporter:
       name: Atlas_Sign-Boss
       rect:
         serializedVersion: 2
-        x: 59
-        y: 289
-        width: 242
-        height: 91
+        x: 48
+        y: 339
+        width: 165
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,13 +482,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_Props_01_1
+      name: Atlas_Tree01-b
       rect:
         serializedVersion: 2
         x: 312
-        y: 414
+        y: 435
         width: 133
-        height: 351
+        height: 330
       alignment: 9
       pivot: {x: 0.50000024, y: 0.009130668}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,9 +506,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 457
-        y: 412
-        width: 110
-        height: 360
+        y: 436
+        width: 114
+        height: 307
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,13 +530,113 @@ TextureImporter:
         width: 232
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 810e082c776dc2641a555d997ccffb05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Boxes
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 651
+        width: 118
+        height: 121
+      alignment: 9
+      pivot: {x: 0.079472944, y: 0.20011635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f26b7294e96c746948c4f520c97173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Table
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 859
+        width: 157
+        height: 191
+      alignment: 9
+      pivot: {x: 0.026881127, y: 0.21203677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2b860a777fb12439a6c4c084298c44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Copier
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 825
+        width: 158
+        height: 276
+      alignment: 9
+      pivot: {x: 0.014777075, y: 0.1418802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2a4a3b476ab8742a70a4f96d0c2f99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Highlight
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 804
+        width: 162
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95f7ddec0e2e284da0f4926bd8dd575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Locker2-2Part
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 392
+        width: 114
+        height: 123
+      alignment: 9
+      pivot: {x: 0.01776016, y: 0.18980123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a41b3999845954ba531a268c6f3f0f
       vertices: []
       indices: 
       edges: []
