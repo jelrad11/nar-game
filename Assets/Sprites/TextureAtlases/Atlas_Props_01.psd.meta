@@ -29,6 +29,14 @@ TextureImporter:
     21300048: Atlas_Copier
     21300050: Atlas_Highlight
     21300052: Atlas_Locker2-2Part
+    21300054: Atlas_Paper01
+    21300056: Atlas_Paper02
+    21300058: Atlas_Table-Tile
+    21300060: Atlas_TableLeg
+    21300062: Atlas_Coffee01
+    21300064: Atlas_Coffee02
+    21300066: Atlas_Coffee03
+    21300068: Atlas_Coffee04
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -568,7 +576,7 @@ TextureImporter:
         x: 763
         y: 859
         width: 157
-        height: 191
+        height: 190
       alignment: 9
       pivot: {x: 0.026881127, y: 0.21203677}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,6 +645,166 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 39a41b3999845954ba531a268c6f3f0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Paper01
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 877
+        width: 87
+        height: 107
+      alignment: 9
+      pivot: {x: 0.09671687, y: 0.21067396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6d8006cb188194692e3b1e9f1b3e0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Paper02
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 877
+        width: 82
+        height: 80
+      alignment: 9
+      pivot: {x: 0.056396484, y: 0.28071442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5932d76384efa2d43a31eaf59f3a22b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Table-Tile
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1024
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 11, z: 16, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ffa98df20469742b269d1632fd7f20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_TableLeg
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1023
+        width: 18
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 10, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafdb5c074ce26c4499b065b6bf7cf6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Coffee01
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1060
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6451e982d6527284e90c16bbf22c9e5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Coffee02
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1059
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6f392d8381fd9469ad6acdb4f723fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Coffee03
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1048
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df78dd6f0f725974caf96b62ba42e84b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Coffee04
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1036
+        width: 107
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00e3aa5c23f9d44d9fb69121b15451d
       vertices: []
       indices: 
       edges: []
