@@ -37,6 +37,8 @@ TextureImporter:
     21300064: Atlas_Coffee02
     21300066: Atlas_Coffee03
     21300068: Atlas_Coffee04
+    21300070: Atlas_Sign-LK
+    21300072: Atlas_TableLegs
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -533,8 +535,8 @@ TextureImporter:
       name: Atlas_Vent
       rect:
         serializedVersion: 2
-        x: 339
-        y: 278
+        x: 436
+        y: 295
         width: 232
         height: 100
       alignment: 0
@@ -738,7 +740,7 @@ TextureImporter:
         width: 29
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -758,7 +760,7 @@ TextureImporter:
         width: 40
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -778,7 +780,7 @@ TextureImporter:
         width: 62
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -798,13 +800,53 @@ TextureImporter:
         width: 107
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: e00e3aa5c23f9d44d9fb69121b15451d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Sign-LK
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 339
+        width: 164
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c2c1a522fa3154483f20ebaf0e9335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_TableLegs
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1110
+        width: 317
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32b4fdd9fb55f04892736cbdc5b0918
       vertices: []
       indices: 
       edges: []
