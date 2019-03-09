@@ -205,7 +205,7 @@ TextureImporter:
       name: Atlas_Wall02_a
       rect:
         serializedVersion: 2
-        x: 12
+        x: 10
         y: 11
         width: 373
         height: 496
@@ -265,9 +265,9 @@ TextureImporter:
       name: Atlas_Wall04_b
       rect:
         serializedVersion: 2
-        x: 1418
+        x: 1419
         y: 12
-        width: 618
+        width: 617
         height: 496
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -331,7 +331,7 @@ TextureImporter:
     weights: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

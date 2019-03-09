@@ -11,8 +11,8 @@ public class Day : MonoBehaviour {
 
 	
 	[SerializeField] GameObject calendarCross;	//GameObject Calendar Cross for Instantiating
-	private Vector3 _CrossPosDefault = new Vector3(-29.875f,12.14f,3.4746f); //Offset for crosses in line
-	private Vector3 _CrossOffsetLine = new Vector3(-0.193f,0,0); //Offset for crosses in line
+	//private Vector3 _CrossPosDefault = new Vector3(-28.444f,11.531f,3.324f); //Offset for crosses in line -28.034
+	private Vector3 _CrossOffsetLine = new Vector3(-0.184f,0,0); //Offset for crosses in line
 	private Vector3 _CrossOffsetColumn = new Vector3(0,-0.231f,0); //Offset for crosses in column
 
 	[SerializeField]private int _CrossInst; //Integer for checking if day++ -23.795
@@ -44,7 +44,7 @@ public class Day : MonoBehaviour {
 
 			if(_DayMonth <= 7 && _DayMonth >= 1) //If the crosses reach the end, it starts inst on the next line 
 			{
-				Instantiate(calendarCross,_CrossPosDefault  + (-_DayWeek) * _CrossOffsetLine, Quaternion.identity);
+				Instantiate(calendarCross, this.gameObject.transform.position  + (-_DayWeek) * _CrossOffsetLine, Quaternion.identity);
 				
 				
 				_clock.crossReady = false;
@@ -52,7 +52,7 @@ public class Day : MonoBehaviour {
 
 			if(_DayMonth <= 14  && _DayMonth >= 8)
 			{
-				Instantiate(calendarCross,_CrossPosDefault + (-_DayWeek) * _CrossOffsetLine + _CrossOffsetColumn,Quaternion.identity);
+				Instantiate(calendarCross, this.gameObject.transform.position + (-_DayWeek) * _CrossOffsetLine + _CrossOffsetColumn,Quaternion.identity);
 
 				
 				_clock.crossReady = false;
@@ -60,7 +60,7 @@ public class Day : MonoBehaviour {
 			
 			if(_DayMonth <= 21 && _DayMonth >= 15)
 			{
-				Instantiate(calendarCross,_CrossPosDefault + (-_DayWeek) * _CrossOffsetLine + _CrossOffsetColumn * 2.1f,Quaternion.identity);
+				Instantiate(calendarCross, this.gameObject.transform.position + (-_DayWeek) * _CrossOffsetLine + _CrossOffsetColumn * 2.1f,Quaternion.identity);
 
 				
 				_clock.crossReady = false;
@@ -68,7 +68,7 @@ public class Day : MonoBehaviour {
 			
 			if(_DayMonth <= 28 && _DayMonth >= 22)
 			{
-				Instantiate(calendarCross,_CrossPosDefault + (-_DayWeek) * _CrossOffsetLine + _CrossOffsetColumn * 3.25f,Quaternion.identity);
+				Instantiate(calendarCross, this.gameObject.transform.position + (-_DayWeek) * _CrossOffsetLine + _CrossOffsetColumn * 3.25f,Quaternion.identity);
 
 				_clock.crossReady = false;
 			}
