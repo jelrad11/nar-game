@@ -39,6 +39,7 @@ TextureImporter:
     21300068: Atlas_Coffee04
     21300070: Atlas_Sign-LK
     21300072: Atlas_TableLegs
+    21300074: Atlas_VentInside
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -847,6 +848,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c32b4fdd9fb55f04892736cbdc5b0918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_VentInside
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 71
+        width: 190
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9cab9e88d340b428ac932ea6358f4a
       vertices: []
       indices: 
       edges: []
