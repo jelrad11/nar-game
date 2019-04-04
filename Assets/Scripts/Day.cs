@@ -24,7 +24,7 @@ public class Day : MonoBehaviour {
 
 
 	void Start () {
-		_DayMonth = _clock.dayAmount;
+		_clock.dayAmount = 1;
 		_DayMonth++;
 		_DayWeek = 1;
 	}
