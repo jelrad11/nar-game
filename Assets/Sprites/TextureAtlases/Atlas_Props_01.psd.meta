@@ -40,6 +40,7 @@ TextureImporter:
     21300070: Atlas_Sign-LK
     21300072: Atlas_TableLegs
     21300074: Atlas_VentInside
+    21300076: Atlas_Sign-OutOfOrder
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -868,6 +869,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7d9cab9e88d340b428ac932ea6358f4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_Sign-OutOfOrder
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 268
+        width: 162
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eade5b2bf6b244fadcdc09f107ebbc
       vertices: []
       indices: 
       edges: []
