@@ -58,12 +58,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,9 +125,9 @@ TextureImporter:
       name: Atlas_Wall01_a
       rect:
         serializedVersion: 2
-        x: 12
+        x: 11
         y: 520
-        width: 373
+        width: 374
         height: 496
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -187,7 +187,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1419
         y: 520
-        width: 619
+        width: 620
         height: 496
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -207,7 +207,7 @@ TextureImporter:
         serializedVersion: 2
         x: 10
         y: 11
-        width: 373
+        width: 375
         height: 496
       alignment: 6
       pivot: {x: 0, y: 0}
