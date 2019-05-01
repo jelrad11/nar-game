@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571255810069288695}
   - component: {fileID: 571255810069288694}
+  - component: {fileID: 5366252819476908857}
   m_Layer: 0
   m_Name: 2_t_wall02
   m_TagString: Untagged
@@ -79,3 +80,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &5366252819476908857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571255810069288693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.19, y: 4.96, z: 0.2}
+  m_Center: {x: 3.095, y: 2.48, z: 0}

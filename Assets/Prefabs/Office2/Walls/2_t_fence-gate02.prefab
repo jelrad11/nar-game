@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5328477986582715935}
   - component: {fileID: 5328477986582715934}
+  - component: {fileID: 1089410002708520688}
+  - component: {fileID: 2804837212358694746}
   m_Layer: 0
   m_Name: 2_t_fence-gate02
   m_TagString: Untagged
@@ -79,3 +81,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1089410002708520688
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328477986582715929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7466892, y: 4.9800005, z: 0.2}
+  m_Center: {x: 0.3733446, y: 2.4900002, z: 0}
+--- !u!65 &2804837212358694746
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328477986582715929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0650194, y: 4.9800005, z: 0.2}
+  m_Center: {x: 5.647491, y: 2.4900002, z: 0}
