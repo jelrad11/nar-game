@@ -21,7 +21,7 @@ TextureImporter:
     21300032: Atlas_Sign-Boss
     21300034: Atlas_Poster-01
     21300036: Atlas_CoffeeSpill
-    21300038: Atlas_Socket
+    21300038: Atlas_Plank
     21300040: Atlas_Tree01-b
     21300042: Atlas_Vent
     21300044: Atlas_Boxes
@@ -474,13 +474,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_Socket
+      name: Atlas_Plank
       rect:
         serializedVersion: 2
-        x: 419
-        y: 1072
-        width: 63
-        height: 62
+        x: 385
+        y: 953
+        width: 177
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,7 +882,7 @@ TextureImporter:
         width: 162
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
